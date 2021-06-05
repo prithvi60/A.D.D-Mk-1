@@ -101,6 +101,11 @@ section.features-section {
   color: white;
 }
 
+section.features-section h1 {
+  margin-left: 0em;
+  color: var(--primary-color);
+}
+
 ul.features-list {
   margin: 0;
   padding-left: .1em;
@@ -133,17 +138,21 @@ ul.features-list li:before {
 }
 
 .testimonials-section {
-  background: black;
+  background: #15a42b1a;
   color: white;
+}
+
+.testimonials-section h1 {
+  color: var(--primary-color);
 }
 
 .testimonials-section li {
   background: #1de93c63;
   text-align: center;
   padding: 2em 1em;
-  width: 80%;
+  width: 75%;
   margin: 0 auto 5em auto;
-  border-radius: 1em;
+  border-radius: .68em;
 }
 
 .testimonials-section li img {
@@ -166,6 +175,7 @@ label {
 }
 
 input, textarea {
+  background-color: grey;
   width: 100%;
   padding: .8em;
   margin-bottom: 1em;
@@ -176,8 +186,8 @@ input, textarea {
 }
 
 input[type="submit"] {
-  background-color: var(--primary-color);
-  color: white;
+  background-color: #1de93c53;
+  color: var(--primary-color);
   font-weight: bold;
   font-size: 1.3em;
   border: none;
@@ -336,6 +346,9 @@ nav li a:hover {
   .features-section {
     position: relative;
   }
+  section.features-section h1 {
+    margin-left: 3.5em;
+  }
   .features-section img {
     display: block;
     position: absolute;
@@ -349,7 +362,7 @@ nav li a:hover {
     display: flex;
   }
   .testimonials-section ul li {
-    margin: 0 1em;
+    margin: 7em 2em 0em 2em;
   }
   .contact-section {
     position: relative;
