@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 :root {
   --primary-color:#1FF707;
+  --secondary-color:rgba(8, 29, 1, 0.694);
 }
 
 body {
@@ -97,12 +98,12 @@ section {
 }
 
 section.features-section {
-  background: #000000;
   color: white;
 }
 
 section.features-section h1 {
   margin-left: 0em;
+  margin-bottom: 2em;
   color: var(--primary-color);
 }
 
@@ -381,6 +382,23 @@ nav li a:hover {
   }
   .contact-right iframe {
     height: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 95%;
+    background: rgba(8, 29, 1, 0.945);
+  }
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 0px;
   }
 }
 /*# sourceMappingURL=main.css.map */
