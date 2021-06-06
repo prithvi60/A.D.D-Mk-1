@@ -89,7 +89,7 @@ section {
 }
 
 .left-col .watch-video-cta img {
-  margin-right: .5em;
+  margin-right: -.5em;
 }
 
 .hero-img {
@@ -121,6 +121,7 @@ ul.features-list li {
   margin-bottom: 1em;
   margin-left: 2em;
   position: relative;
+  z-index: -5;
 }
 
 ul.features-list li:before {
@@ -132,6 +133,7 @@ ul.features-list li:before {
   background-image: url("../images/bullet.svg");
   background-size: contain;
   margin-right: .5em;
+  z-index: -5;
 }
 
 .features-section img {
@@ -388,11 +390,18 @@ nav li a:hover {
 @media only screen and (max-width: 768px) {
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
   .sticky {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    position: fixed;
-    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0em;
+    padding-top: 1.8em;
+    padding-bottom: .5em;
+    bottom: 0em;
     width: 95%;
     background: rgba(8, 29, 1, 0.945);
   }
