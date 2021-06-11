@@ -329,7 +329,7 @@ grid-template-columns: 180px auto;
     }
    
     section{
-        padding: 2em 4em;
+        padding: 0em 4em;
     }
     .hero .container{
         display: flex;
@@ -343,14 +343,14 @@ grid-template-columns: 180px auto;
         
         h1{
             font-size: 3em;
-            width: 130%;
+            width: 110%;
             color: rgb(255, 255, 255);
         }
       }
     }
 
 .hero-img{
-    width: 55%;
+    width: 45.5%;
     height: auto;
     margin-right:0em ;
 }
