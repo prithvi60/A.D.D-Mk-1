@@ -53,7 +53,7 @@ ul{
 }
 
 section{
-    padding: 5em 2em;
+    padding: 5em 2em 0em 2em;
 
 }
 
@@ -78,7 +78,7 @@ section{
         background: #1de93c53;
         color: var(--primary-color);
         text-decoration: none;
-        padding: .6em 1.3em;
+        padding: .6em 1.3em ;
         font-size: 1.4em;
         border-radius: 5em;
         font-weight: bold;
@@ -98,6 +98,7 @@ section{
 
 .hero-img{
     width: 100%;
+    height: auto;
     margin-top: 3em;
 }
 
@@ -107,7 +108,7 @@ section.features-section{
     h1{
         margin-left:0em;
         margin-bottom: 1.4em;
-        margin-top: 4em;
+        margin-top: 0em;
     color: rgba(189, 253, 180, 0.633);
     font-size: 1.7em;
         
@@ -115,23 +116,24 @@ section.features-section{
     }
     h2{
         color:rgba(255, 255, 255, 0.796);
-       
+        margin-bottom: 5em;
         font-size: 1.3em;
     }
 
 }
 
 ul.features-list{
-    margin-bottom: 5em;
+    margin-bottom: 10em;
     padding-left: .1em;
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(19rem,1fr));
 
 
 li{
-    font-size: 1.1em;
-    margin-bottom: 1em;
+    font-size: 1.5em;
+    margin-top: 1em;
     margin-left:2em;
+    padding-bottom: .7em;
     position: relative;
     z-index: -5;
 
@@ -139,8 +141,8 @@ li{
         content:'';
         left: -2em;
         position: absolute;
-        width: 20px;
-        height: 20px;
+        width: 36px;
+        height: 36px;
         background-image: url("../images/bullet.svg");
         background-size: contain;
         margin-right: .5em;
@@ -327,7 +329,7 @@ grid-template-columns: 180px auto;
     }
    
     section{
-        padding: 10em 4em;
+        padding: 2em 4em;
     }
     .hero .container{
         display: flex;
@@ -348,15 +350,16 @@ grid-template-columns: 180px auto;
     }
 
 .hero-img{
-    width: 56%;
+    width: 55%;
+    height: auto;
     margin-right:0em ;
 }
-.hero-cta{
-    display: flex;
-}
-.primary-cta{
-    margin-right: 1em;
-}
+// .hero-cta{
+//     display: flex;
+// }
+// .primary-cta{
+//     margin-right: 1em;
+// }
 ul.features-list{
     display: block;
     margin-left: 5em;
@@ -373,7 +376,7 @@ ul.features-list{
 
 .features-section{
     position: relative;
-    margin-top: -11em;
+    margin-top: 0em;
    
 }
 section.features-section{h1
