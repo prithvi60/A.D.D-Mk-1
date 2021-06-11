@@ -65,10 +65,11 @@ section {
   font-weight: bold;
   color: grey;
   letter-spacing: .3em;
+  font-size: 1em;
 }
 
 .left-col h1 {
-  font-size: 2.5em;
+  font-size: 3em;
   color: white;
 }
 
@@ -98,17 +99,24 @@ section {
 }
 
 section.features-section {
-  color: white;
+  color: rgba(255, 255, 255, 0.796);
 }
 
 section.features-section h1 {
   margin-left: 0em;
-  margin-bottom: 2em;
-  color: var(--primary-color);
+  margin-bottom: 1.4em;
+  margin-top: 4em;
+  color: rgba(189, 253, 180, 0.633);
+  font-size: 1.7em;
+}
+
+section.features-section h2 {
+  color: rgba(255, 255, 255, 0.796);
+  font-size: 1.3em;
 }
 
 ul.features-list {
-  margin: 0;
+  margin-bottom: 5em;
   padding-left: .1em;
   display: -ms-grid;
   display: grid;
@@ -148,7 +156,7 @@ ul.features-list li:before {
 }
 
 .testimonials-section h1 {
-  color: white;
+  color: rgba(189, 253, 180, 0.633);
   margin-bottom: 2em;
 }
 
@@ -321,9 +329,12 @@ nav li a:hover {
   .hero .container .left-col {
     margin: 3em 3em 0 5em;
   }
+  .hero .container .left-col .subhead {
+    font-size: 1.1em;
+  }
   .hero .container .left-col h1 {
     font-size: 3em;
-    width: 90%;
+    width: 130%;
     color: white;
   }
   .hero-img {
@@ -351,9 +362,14 @@ nav li a:hover {
   }
   .features-section {
     position: relative;
+    margin-top: -11em;
   }
   section.features-section h1 {
     margin-left: 3.5em;
+  }
+  section.features-section h2 {
+    margin-left: 3.3em;
+    font-size: 1.75em;
   }
   .features-section img {
     display: block;
@@ -376,8 +392,9 @@ nav li a:hover {
     padding-top: .5em;
   }
   .testimonials-section h1 {
-    color: white;
+    color: rgba(189, 253, 180, 0.633);
     margin-bottom: -2em;
+    margin-left: 3.5em;
   }
   .testimonials-section li img {
     margin-top: -4.5em;

@@ -28,6 +28,7 @@ font-family:'Poppins','sans-serif';
 
     nav{
        display: none;
+       
     }
     
     .container{
@@ -67,10 +68,11 @@ section{
         font-weight: bold;
         color: grey;
         letter-spacing: .3em;
+        font-size: 1em;
     }
     h1{
-        font-size: 2.5em;
-        color: white
+        font-size: 3em;
+        color: white;
     }
     .primary-cta{
         background: #1de93c53;
@@ -101,19 +103,26 @@ section{
 
 section.features-section{
     // background: #000000;
-    color: white;
+    color: rgba(255, 255, 255, 0.796);
     h1{
         margin-left:0em;
-        margin-bottom: 2em;
-    color: var(--primary-color);
+        margin-bottom: 1.4em;
+        margin-top: 4em;
+    color: rgba(189, 253, 180, 0.633);
+    font-size: 1.7em;
         
 
+    }
+    h2{
+        color:rgba(255, 255, 255, 0.796);
+       
+        font-size: 1.3em;
     }
 
 }
 
 ul.features-list{
-    margin: 0;
+    margin-bottom: 5em;
     padding-left: .1em;
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(19rem,1fr));
@@ -150,7 +159,7 @@ li{
     padding-bottom: .5em;
     padding-top: .5em;
    h1{
-       color: white ;
+       color: rgba(189, 253, 180, 0.633) ;
        margin-bottom: 2em;
    }
     
@@ -327,11 +336,13 @@ grid-template-columns: 180px auto;
 
         .left-col{
             margin: 3em 3em 0 5em;
+
+            .subhead{font-size: 1.1em;}
         
         h1{
             font-size: 3em;
-            width: 90%;
-            color: white;
+            width: 130%;
+            color: rgb(255, 255, 255);
         }
       }
     }
@@ -362,10 +373,16 @@ ul.features-list{
 
 .features-section{
     position: relative;
+    margin-top: -11em;
    
 }
 section.features-section{h1
     {margin-left: 3.5em;}
+
+    h2{
+        margin-left: 3.3em;
+        font-size: 1.75em;
+    }
 }
 .features-section img{
     display: block;
@@ -389,8 +406,9 @@ section.features-section{h1
      padding-bottom: 4em;
      padding-top: .5em;
     h1{
-        color:white ;
+        color:rgba(189, 253, 180, 0.633) ;
         margin-bottom: -2em;
+        margin-left: 3.5em;
     }
    li{ img{
         margin-top: -4.5em;
