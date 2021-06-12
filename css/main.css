@@ -330,14 +330,14 @@ nav li a:hover {
     text-align: left;
   }
   .hero .container .left-col {
-    margin: 3em 3em 0 5em;
+    margin: 6em 3em 0 5em;
   }
   .hero .container .left-col .subhead {
     font-size: 1.2em;
   }
   .hero .container .left-col h1 {
     font-size: 3em;
-    width: 110%;
+    width: 80%;
     color: white;
   }
   .hero-img {
