@@ -476,10 +476,11 @@ nav li a:hover {
     position: -webkit-sticky;
     position: sticky;
     top: 0em;
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     bottom: 0em;
     width: auto;
-    background: rgba(8, 29, 1, 0.945);
+    background: rgba(0, 0, 0, 0.857);
   }
   .mobile-menu {
     margin-right: 1em;

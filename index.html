@@ -133,8 +133,9 @@
         </div>
     </section> -->
   <script>
+
        // When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+       window.onscroll = function() {myFunction()};
 
 //Get the navbar
 var navbar = document.getElementById("navbar");
@@ -145,13 +146,19 @@ var sticky = navbar.offsetTop;
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
   if (window.pageYOffset >= sticky && window.pageYOffset != 0) {
-    navbar.classList.add("sticky")
+    navbar.classList.add("sticky");
+    setTimeout(function() {afunction()},5000);
   } else {
     navbar.classList.remove("sticky");
   }
 }
 
+//function to remove nav after 5 seconds
+function afunction(){
+    navbar.classList.remove("sticky");}
 
+
+    
       const mobileBtn = document.getElementById("mobile-cta")
       nav= document.querySelector('nav')
       mobileBtnExit = document.getElementById("mobile-exit");
