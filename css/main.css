@@ -13,7 +13,7 @@ body {
 
 .navbar {
   background: rgba(8, 29, 1, 0.694);
-  padding: 1em;
+  padding: .3em;
 }
 
 .navbar .logo {
@@ -476,11 +476,11 @@ nav li a:hover {
     position: -webkit-sticky;
     position: sticky;
     top: 0em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: .2em;
+    padding-bottom: .3em;
     bottom: 0em;
     width: auto;
-    background: rgba(0, 0, 0, 0.857);
+    background: rgba(0, 0, 0, 0.905);
   }
   .mobile-menu {
     margin-right: 1em;
