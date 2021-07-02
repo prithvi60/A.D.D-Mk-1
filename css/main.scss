@@ -11,7 +11,9 @@ background: black;
 margin: 0;
 font-family:'Poppins','sans-serif';
 
+
 }
+
 
 .navbar{
   background: rgba(8, 29, 1, 0.694);
@@ -65,18 +67,21 @@ section{
 }
 
 .left-col{
-
+   
     .subhead{
         text-transform:uppercase;
         font-weight: bold;
         color: grey;
         letter-spacing: .3em;
-        font-size: 0.92em;
+        font-size: 0.90em;
         font-family: 'Titillium Web', 'sans-serif';
     }
     h1{
         font-size: 2.5em;
         color: white;
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
     }
     .primary-cta{
         background: #ffffff;
@@ -105,6 +110,18 @@ section{
     width: 100%;
     height: auto;
     margin-top: 3em;
+    animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+   
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 
