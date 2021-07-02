@@ -367,6 +367,11 @@ grid-template-columns: 180px auto;
 }
 
 @media only screen and (min-width: 1080px){
+
+    .navbar{
+     padding: .8em
+
+    }
     .container{
     width: 100%;
     margin: 0 auto;
@@ -384,7 +389,10 @@ grid-template-columns: 180px auto;
         .left-col{
             margin: 6em 3em 0 5em;
 
-            .subhead{font-size: 1.5em;}
+            .subhead{font-size: 1.5em;
+                animation: fadeInAnimation ease 1s;
+                animation-iteration-count: 1;
+                animation-fill-mode: backwards;}
         
         h1{
             font-size: 3em;
