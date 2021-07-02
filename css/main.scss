@@ -81,7 +81,7 @@ section{
         color: white;
         animation: fadeInAnimation ease 3s;
         animation-iteration-count: 1;
-        animation-fill-mode: forwards;
+        animation-fill-mode: backwards;
     }
     .primary-cta{
         background: #ffffff;
@@ -112,7 +112,7 @@ section{
     margin-top: 3em;
     animation: fadeInAnimation ease 3s;
         animation-iteration-count: 1;
-        animation-fill-mode: forwards;
+        animation-fill-mode: backwards;
    
 }
 @keyframes fadeInAnimation {
@@ -552,6 +552,7 @@ section.features-section{
     padding-top: .2em;
     padding-bottom: .3em ;
     bottom: 0em;
+    z-index: 6;
     width: auto;
     // background: rgba(8, 29, 1, 0.945);
     background: rgba(0, 0, 0, 0.905);  
