@@ -189,7 +189,7 @@ ul.features-list li {
   font-size: 1.5em;
   margin-top: 1em;
   margin-left: 2em;
-  padding-bottom: .7em;
+  padding-bottom: 2em;
   position: relative;
   z-index: -5;
 }
@@ -416,12 +416,13 @@ nav li a:hover {
   }
   ul.features-list {
     display: block;
-    margin-left: 5em;
-    margin-top: 4em;
-    margin-bottom: 6em;
+    margin-left: 11em;
+    margin-top: 8em;
+    margin-bottom: 10em;
   }
   ul.features-list li {
     font-size: 2em;
+    padding-bottom: 2.5em;
   }
   ul.features-list li:before {
     width: 45px;
