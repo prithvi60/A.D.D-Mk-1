@@ -143,7 +143,7 @@ section.features-section{ .primary-cta{
     font-weight: bold;
     display: inline-block;
     z-index: +5;
-    margin: 0em 0em 3.5em 1em;
+    margin: 0em 0em 0em 0.5em;
 
     &:hover{
         background: #0af52dd7;
@@ -171,9 +171,17 @@ section.features-section{ .primary-cta{
         font-size: 1.3em;
         font-family: 'Titillium Web', 'sans-serif';
     }
+
+    .d-img{
+        width: 100%;
+        height: 100%;
+        margin-right:2em ;
+        margin-bottom: 8em;
+        margin-top: 8em;
+    }
     .vid{
         iframe{
-            margin-bottom: 6em;
+            margin-bottom: 10em;
         
         }
     }
@@ -209,10 +217,10 @@ li{
     }
 }
 }
-.features-section img{
-    display: none;
+// .features-section img{
+//     display: none;
     
-}
+// }
 
 .testimonials-section{
     background: #024a0d23;
@@ -478,7 +486,7 @@ section.features-section{
         font-weight: bold;
         display: inline-block;
         z-index: +5;
-        margin: 0em 0em 8em 4.7em;
+        margin: 0em 0em 30em 4.7em;
         &:hover{
             background: #0af52dd7;
             color: rgb(0, 0, 0);
@@ -499,10 +507,10 @@ section.features-section{
         width: 60%;
     }
     .d-img{
-        width: 33%;
+        width: 60%;
         height: auto;
-        margin-right:2em ;
-        margin-bottom: 90em;
+        margin-right:8em ;
+        margin-bottom: 95em;
     }
     .vid{
        iframe{
