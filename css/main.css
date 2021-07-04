@@ -8,34 +8,28 @@
 body {
   background: black;
   margin: 0;
-  font-family: 'Poppins','sans-serif';
+  font-family: "Poppins", "sans-serif";
 }
 
 .navbar {
-  background: rgba(8, 29, 1, 0.694);
-  padding: .3em;
+  background: #470808;
+  padding: 0.3em;
 }
-
 .navbar .logo {
   text-decoration: none;
   font-weight: 700;
   color: white;
   font-size: 1.5em;
 }
-
 .navbar .logo span {
   color: var(--primary-color);
 }
-
 .navbar nav {
   display: none;
-  font-family: 'Titillium Web', 'sans-serif';
+  font-family: "Titillium Web", "sans-serif";
 }
-
 .navbar .container {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   place-content: space-between;
 }
@@ -66,11 +60,10 @@ section {
   text-transform: uppercase;
   font-weight: bold;
   color: grey;
-  letter-spacing: .3em;
-  font-size: 0.90em;
-  font-family: 'Titillium Web', 'sans-serif';
+  letter-spacing: 0.3em;
+  font-size: 0.9em;
+  font-family: "Titillium Web", "sans-serif";
 }
-
 .left-col h1 {
   font-size: 2.5em;
   color: white;
@@ -81,26 +74,23 @@ section {
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
-
 .left-col .primary-cta {
   background: #ffffff;
   color: var(--primary-color);
   text-decoration: none;
-  padding: .6em 1.3em;
+  padding: 0.6em 1.3em;
   font-size: 1.4em;
   border-radius: 5em;
   font-weight: bold;
   display: inline-block;
-  z-index: +5;
+  z-index: 5;
 }
-
 .left-col .watch-video-cta {
   display: block;
   margin-top: 1em;
 }
-
 .left-col .watch-video-cta img {
-  margin-right: -.5em;
+  margin-right: -0.5em;
 }
 
 .hero-img {
@@ -132,59 +122,50 @@ section {
     opacity: 1;
   }
 }
-
 section.features-section {
   color: rgba(255, 255, 255, 0.796);
 }
-
 section.features-section .primary-cta {
   background: #1de93c53;
   color: var(--primary-color);
   text-decoration: none;
-  padding: .6em 1.3em;
+  padding: 0.6em 1.3em;
   font-size: 1.4em;
   border-radius: 5em;
   font-weight: bold;
   display: inline-block;
-  z-index: +5;
+  z-index: 5;
   margin: 0em 0em 3.5em 1em;
 }
-
 section.features-section .primary-cta:hover {
   background: #0af52dd7;
   color: black;
   font-weight: bold;
 }
-
 section.features-section h1 {
   margin-left: 0em;
   margin-bottom: 1.4em;
   margin-top: 0em;
   color: rgba(189, 253, 180, 0.633);
   font-size: 1.7em;
-  font-family: 'Titillium Web', 'sans-serif';
+  font-family: "Titillium Web", "sans-serif";
 }
-
 section.features-section h2 {
   color: rgba(255, 255, 255, 0.796);
   margin-bottom: 5em;
   font-size: 1.3em;
-  font-family: 'Titillium Web', 'sans-serif';
+  font-family: "Titillium Web", "sans-serif";
 }
-
 section.features-section .vid iframe {
   margin-bottom: 6em;
 }
 
 ul.features-list {
   margin-bottom: 6em;
-  padding-left: .1em;
-  display: -ms-grid;
+  padding-left: 0.1em;
   display: grid;
-  -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
 }
-
 ul.features-list li {
   font-size: 1.5em;
   margin-top: 1em;
@@ -193,16 +174,15 @@ ul.features-list li {
   position: relative;
   z-index: -5;
 }
-
 ul.features-list li:before {
-  content: '';
+  content: "";
   left: -2em;
   position: absolute;
   width: 36px;
   height: 36px;
   background-image: url("../images/bullet.svg");
   background-size: contain;
-  margin-right: .5em;
+  margin-right: 0.5em;
   z-index: -5;
 }
 
@@ -213,25 +193,22 @@ ul.features-list li:before {
 .testimonials-section {
   background: #024a0d23;
   color: white;
-  padding-bottom: .5em;
-  padding-top: .5em;
-  font-family: 'Titillium Web', 'sans-serif';
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  font-family: "Titillium Web", "sans-serif";
 }
-
 .testimonials-section h1 {
   color: rgba(189, 253, 180, 0.633);
   margin-bottom: 2em;
 }
-
 .testimonials-section li {
   background: #9eb8a2a1;
   text-align: center;
   padding: 0.1em 0.5em;
   width: 75%;
   margin: 0 auto 3.5em auto;
-  border-radius: .68em;
+  border-radius: 0.68em;
 }
-
 .testimonials-section li img {
   width: 5em;
   height: 5em;
@@ -248,21 +225,20 @@ h2 {
 label {
   display: block;
   font-size: 1.2em;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 input, textarea {
   background-color: grey;
   width: 100%;
-  padding: .8em;
+  padding: 0.8em;
   margin-bottom: 1em;
-  border-radius: .3em;
+  border-radius: 0.3em;
   border: 1px solid gray;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-input[type="submit"] {
+input[type=submit] {
   background-color: #1de93c53;
   color: var(--primary-color);
   font-weight: bold;
@@ -271,7 +247,7 @@ input[type="submit"] {
   margin-bottom: 5em;
   border-radius: 5em;
   display: inline-block;
-  padding: .8em 2em;
+  padding: 0.8em 2em;
   width: unset;
   cursor: pointer;
 }
@@ -295,20 +271,17 @@ nav {
   height: 100vh;
   padding: 1em;
 }
-
 nav ul.primary-nav {
   margin-top: 5em;
 }
-
 nav li a {
   color: white;
   text-decoration: none;
   display: block;
-  padding: .5em;
+  padding: 0.5em;
   font-size: 1.3em;
   text-align: right;
 }
-
 nav li a:hover {
   color: #0af52da1;
   font-weight: bold;
@@ -316,7 +289,7 @@ nav li a:hover {
 
 .mobile-menu-exit {
   float: right;
-  margin: .5em;
+  margin: 0.5em;
   cursor: pointer;
 }
 
@@ -324,19 +297,15 @@ nav li a:hover {
   .mobile-menu, .mobile-menu-exit {
     display: none;
   }
+
   .navbar .container {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 180px auto;
-        grid-template-columns: 180px auto;
+    grid-template-columns: 180px auto;
   }
+
   .navbar nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     background: none;
     position: unset;
     height: auto;
@@ -344,14 +313,12 @@ nav li a:hover {
     padding: 0;
   }
   .navbar nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .navbar nav a {
     color: white;
     font-size: 1em;
-    padding: .1em 1em;
+    padding: 0.1em 1em;
   }
   .navbar nav ul.primary-nav {
     margin: 0;
@@ -364,32 +331,30 @@ nav li a:hover {
     border: 3px solid var(--primary-color);
     font-weight: bold;
     border-radius: 5em;
-    margin-top: -.2em;
+    margin-top: -0.2em;
   }
   .navbar nav li.go-premium-cta a:hover {
     background: #0ed12b78;
     color: var(--primary-color);
   }
 }
-
 @media only screen and (min-width: 1080px) {
   .navbar {
-    padding: .8em;
+    padding: 0.8em;
   }
+
   .container {
     width: 100%;
     margin: 0 auto;
   }
+
   section {
     padding: 0em 4em;
   }
+
   .hero .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     text-align: left;
   }
   .hero .container .left-col {
@@ -409,11 +374,13 @@ nav li a:hover {
     width: 80%;
     color: white;
   }
+
   .hero-img {
     width: 45.5%;
     height: auto;
     margin-right: 0em;
   }
+
   ul.features-list {
     display: block;
     margin-left: 11em;
@@ -428,10 +395,12 @@ nav li a:hover {
     width: 45px;
     height: 45px;
   }
+
   .features-section {
     position: relative;
     margin-top: 0em;
   }
+
   section.features-section .primary-cta {
     background: #1de93c53;
     color: var(--primary-color);
@@ -441,7 +410,7 @@ nav li a:hover {
     border-radius: 5em;
     font-weight: bold;
     display: inline-block;
-    z-index: +5;
+    z-index: 5;
     margin: 0em 0em 8em 4.7em;
   }
   section.features-section .primary-cta:hover {
@@ -471,6 +440,7 @@ nav li a:hover {
     height: 720px;
     margin-left: 8em;
   }
+
   .features-section img {
     display: block;
     position: absolute;
@@ -478,18 +448,18 @@ nav li a:hover {
     width: 350px;
     bottom: -2em;
   }
+
   .testimonials-section ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .testimonials-section ul li {
     margin: 7em 2em 0em 2em;
   }
+
   .testimonials-section {
     margin-bottom: 0;
     padding-bottom: 4em;
-    padding-top: .5em;
+    padding-top: 0.5em;
   }
   .testimonials-section h1 {
     color: rgba(189, 253, 180, 0.633);
@@ -502,6 +472,7 @@ nav li a:hover {
   .testimonials-section li img {
     margin-top: -4.5em;
   }
+
   .contact-right {
     position: absolute;
     right: 0;
@@ -513,32 +484,27 @@ nav li a:hover {
     height: 100%;
   }
 }
-
 @media only screen and (max-width: 768px) {
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
   .sticky {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    position: -webkit-sticky;
+    justify-content: space-between;
     position: sticky;
     top: 0em;
-    padding-top: .2em;
-    padding-bottom: .3em;
+    padding-top: 0.2em;
+    padding-bottom: 0.3em;
     bottom: 0em;
     z-index: 6;
     width: auto;
     background: rgba(0, 0, 0, 0.905);
   }
+
   .mobile-menu {
     margin-right: 1em;
   }
+
   /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
   .sticky + .content {
     padding-top: 0px;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
