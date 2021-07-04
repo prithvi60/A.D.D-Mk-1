@@ -21,8 +21,9 @@ font-family:'Poppins','sans-serif';
   .logo{
       text-decoration: none;
       font-weight: 700;
-      color: rgb(255, 255, 255);
+      color: #ffffff;
       font-size: 1.5em;
+    //   font-family: 'Titillium Web', 'sans-serif';
     span{
         color: var(--primary-color);
 
@@ -84,15 +85,22 @@ section{
         animation-fill-mode: backwards;
     }
     .primary-cta{
-        background: #ffffff;
+        background: #1de93c53;
         color: var(--primary-color);
         text-decoration: none;
-        padding: .6em 1.3em ;
-        font-size: 1.4em;
+        padding: .7em 1.3em ;
+        font-size: 1.2em;
         border-radius: 5em;
         font-weight: bold;
         display: inline-block;
+        margin-top: 3em;
         z-index: +5;
+        &:hover{
+            background: #0af52dd7;
+            color: rgb(0, 0, 0);
+          font-weight:bold;
+    
+      }
          
     }
     .watch-video-cta{
@@ -126,7 +134,7 @@ section{
 
 
 section.features-section{ .primary-cta{
-    background: #1de93c53;
+    background: #6e0f5b73;
     color: var(--primary-color);
     text-decoration: none;
     padding: .6em 1.3em ;
@@ -392,7 +400,24 @@ grid-template-columns: 180px auto;
         display: flex;
         justify-content: space-between;
         text-align: left;
-
+        .primary-cta{
+            background: #6e0f5b73;
+            color: var(--primary-color);
+            text-decoration: none;
+            padding: .6em 1.3em ;
+            font-size: 1.4em;
+            border-radius: 5em;
+            font-weight: bold;
+            display: inline-block;
+            z-index: +5;
+            &:hover{
+                background: #0af52dd7;
+                color: rgb(0, 0, 0);
+              font-weight:bold;
+        
+          }
+             
+        }
         .left-col{
             margin: 6em 3em 0 5em;
 

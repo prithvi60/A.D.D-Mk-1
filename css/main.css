@@ -19,7 +19,7 @@ body {
 .navbar .logo {
   text-decoration: none;
   font-weight: 700;
-  color: white;
+  color: #ffffff;
   font-size: 1.5em;
 }
 
@@ -83,15 +83,22 @@ section {
 }
 
 .left-col .primary-cta {
-  background: #ffffff;
+  background: #1de93c53;
   color: var(--primary-color);
   text-decoration: none;
-  padding: .6em 1.3em;
-  font-size: 1.4em;
+  padding: .7em 1.3em;
+  font-size: 1.2em;
   border-radius: 5em;
   font-weight: bold;
   display: inline-block;
+  margin-top: 3em;
   z-index: +5;
+}
+
+.left-col .primary-cta:hover {
+  background: #0af52dd7;
+  color: black;
+  font-weight: bold;
 }
 
 .left-col .watch-video-cta {
@@ -138,7 +145,7 @@ section.features-section {
 }
 
 section.features-section .primary-cta {
-  background: #1de93c53;
+  background: #6e0f5b73;
   color: var(--primary-color);
   text-decoration: none;
   padding: .6em 1.3em;
@@ -391,6 +398,22 @@ nav li a:hover {
         -ms-flex-pack: justify;
             justify-content: space-between;
     text-align: left;
+  }
+  .hero .container .primary-cta {
+    background: #6e0f5b73;
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: .6em 1.3em;
+    font-size: 1.4em;
+    border-radius: 5em;
+    font-weight: bold;
+    display: inline-block;
+    z-index: +5;
+  }
+  .hero .container .primary-cta:hover {
+    background: #0af52dd7;
+    color: black;
+    font-weight: bold;
   }
   .hero .container .left-col {
     margin: 6em 3em 0 5em;
