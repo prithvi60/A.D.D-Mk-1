@@ -18,7 +18,7 @@ body {
 .navbar .logo {
   text-decoration: none;
   font-weight: 700;
-  color: white;
+  color: #ffffff;
   font-size: 1.5em;
 }
 .navbar .logo span {
@@ -75,16 +75,24 @@ section {
           animation-fill-mode: backwards;
 }
 .left-col .primary-cta {
-  background: #ffffff;
+  background: #1de93c53;
   color: var(--primary-color);
   text-decoration: none;
-  padding: 0.6em 1.3em;
-  font-size: 1.4em;
+  padding: .7em 1.3em;
+  font-size: 1.2em;
   border-radius: 5em;
   font-weight: bold;
   display: inline-block;
-  z-index: 5;
+  margin-top: 3em;
+  z-index: +5;
 }
+
+.left-col .primary-cta:hover {
+  background: #0af52dd7;
+  color: black;
+  font-weight: bold;
+}
+
 .left-col .watch-video-cta {
   display: block;
   margin-top: 1em;
@@ -126,7 +134,7 @@ section.features-section {
   color: rgba(255, 255, 255, 0.796);
 }
 section.features-section .primary-cta {
-  background: #1de93c53;
+  background: #6e0f5b73;
   color: var(--primary-color);
   text-decoration: none;
   padding: 0.6em 1.3em;
@@ -134,8 +142,8 @@ section.features-section .primary-cta {
   border-radius: 5em;
   font-weight: bold;
   display: inline-block;
-  z-index: 5;
-  margin: 0em 0em 3.5em 1em;
+  z-index: +5;
+  margin: 0em 0em 0em 0.5em;
 }
 section.features-section .primary-cta:hover {
   background: #0af52dd7;
@@ -156,8 +164,17 @@ section.features-section h2 {
   font-size: 1.3em;
   font-family: "Titillium Web", "sans-serif";
 }
+
+section.features-section .d-img {
+  width: 100%;
+  height: 100%;
+  margin-right: 2em;
+  margin-bottom: 8em;
+  margin-top: 8em;
+}
+
 section.features-section .vid iframe {
-  margin-bottom: 6em;
+  margin-bottom: 10em;
 }
 
 ul.features-list {
@@ -186,10 +203,6 @@ ul.features-list li:before {
   z-index: -5;
 }
 
-.features-section img {
-  display: none;
-}
-
 .testimonials-section {
   background: #024a0d23;
   color: white;
@@ -202,12 +215,12 @@ ul.features-list li:before {
   margin-bottom: 2em;
 }
 .testimonials-section li {
-  background: #9eb8a2a1;
+  background: #9eb8a264;
   text-align: center;
-  padding: 0.1em 0.5em;
-  width: 75%;
-  margin: 0 auto 3.5em auto;
-  border-radius: 0.68em;
+  padding: 0.1em 0.3em;
+  width: 95%;
+  margin: 0 3.5em 4em 0.2em;
+  border-radius: .68em;
 }
 .testimonials-section li img {
   width: 5em;
@@ -357,6 +370,22 @@ nav li a:hover {
     justify-content: space-between;
     text-align: left;
   }
+  .hero .container .primary-cta {
+    background: #6e0f5b73;
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: .6em 1.3em;
+    font-size: 1.4em;
+    border-radius: 5em;
+    font-weight: bold;
+    display: inline-block;
+    z-index: +5;
+  }
+  .hero .container .primary-cta:hover {
+    background: #0af52dd7;
+    color: black;
+    font-weight: bold;
+  }
   .hero .container .left-col {
     margin: 6em 3em 0 5em;
   }
@@ -410,8 +439,8 @@ nav li a:hover {
     border-radius: 5em;
     font-weight: bold;
     display: inline-block;
-    z-index: 5;
-    margin: 0em 0em 8em 4.7em;
+    z-index: +5;
+    margin: 0em 0em 30em 4.7em;
   }
   section.features-section .primary-cta:hover {
     background: #0af52dd7;
@@ -429,10 +458,10 @@ nav li a:hover {
     width: 60%;
   }
   section.features-section .d-img {
-    width: 33%;
+    width: 60%;
     height: auto;
-    margin-right: 2em;
-    margin-bottom: 90em;
+    margin-right: 8em;
+    margin-bottom: 95em;
   }
   section.features-section .vid iframe {
     width: 1280px;
