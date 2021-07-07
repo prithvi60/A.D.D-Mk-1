@@ -134,7 +134,11 @@ section{
 }
 
 
-section.features-section{ .primary-cta{
+section.features-section{  
+    .container{
+        overflow-x: hidden;
+    }
+    .primary-cta{
     background: #6e0f5b73;
     color: var(--primary-color);
     text-decoration: none;

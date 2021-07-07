@@ -131,6 +131,9 @@ section {
 section.features-section {
   color: rgba(255, 255, 255, 0.796);
 }
+section.features-section .container {
+  overflow-x: hidden;
+}
 section.features-section .primary-cta {
   background: #6e0f5b73;
   color: var(--primary-color);
