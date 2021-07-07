@@ -7,6 +7,7 @@
     <meta name="theme-color" content="rgba(8, 29, 1, 0.694)">
     <title>A.D.D Mk-1</title>
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
   <body>
@@ -62,7 +63,7 @@
                 <div class="container">
                     
                   <h1>DESIGN</h1>
-                  <h2>
+                  <h2 data-aos="fade-left">
                      Our Design department strives to create the most efficient ,resilient and cost effective prototypes for our mk1 drone. Watch this space for further updates.
                        
                 </h2> <a href="https://kailashv7.github.io/helmet-view/" class="primary-cta">Click to view Design</a>   
@@ -73,7 +74,7 @@
           <a id="ai">
               <div class="container">
                 <h1>A.I</h1>
-                <h2>
+                <h2 data-aos="fade-left">
                     Reinforcement Learning models trained in simulations such as Airsim, OpenAi Gym over multiple generations help guide our drones through 
                     harsh environments. Watch this space to learn more about our AI systems. AI product video coming soon.                              </h2>
                 
@@ -184,6 +185,15 @@ function afunction(){
           nav.classList.remove('menu-btn');
       })
   </script>
+
+<!-- on scroll transition  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset:300,
+    duration:1000
+  });
+</script>
 
 </body>
 
