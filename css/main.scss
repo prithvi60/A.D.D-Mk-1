@@ -11,9 +11,7 @@ background: black;
 margin: 0;
 font-family:'Poppins','sans-serif';
 
-
 }
-
 
 .navbar{
 //   background: rgba(8, 29, 1, 0.694);
@@ -133,10 +131,17 @@ section{
      }
 }
 
-
 section.features-section{  
+ 
     .container{
         overflow-x: hidden;
+
+        .effect{ position: relative;
+            margin-left: 0px;
+            transform: translate(0px,-100px);
+            width: 100%;
+            height: 20vh;
+            }
     }
     .primary-cta{
     background: #6e0f5b73;
@@ -228,11 +233,18 @@ li{
 // }
 
 .testimonials-section{
+    z-index: 100;
     background: #024a0d23;
     color: white;
     padding-bottom: .5em;
     padding-top: .5em;
     font-family: 'Titillium Web', 'sans-serif';
+
+    .container{ 
+        z-index: 100;
+        // height:30% ;
+    }
+
    h1{
        color: rgba(189, 253, 180, 0.633) ;
        margin-bottom: 2em;
@@ -481,6 +493,17 @@ ul.features-list{
     margin-top: 0em;  
 }
 section.features-section{
+     
+    .container{
+        overflow-x: hidden;
+
+        .effect{ position: relative;
+            margin-left: 0px;
+            transform: translate(40%,-650px);
+            // width: 40%;
+            height: 25vh;
+            }
+    }
     .primary-cta{
         background: #1de93c53;
         color: var(--primary-color);

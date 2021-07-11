@@ -134,6 +134,13 @@ section.features-section {
 section.features-section .container {
   overflow-x: hidden;
 }
+section.features-section .container .effect {
+  position: relative;
+  margin-left: 0px;
+  transform: translate(0px, -100px);
+  width: 100%;
+  height: 20vh;
+}
 section.features-section .primary-cta {
   background: #6e0f5b73;
   color: var(--primary-color);
@@ -203,11 +210,15 @@ ul.features-list li:before {
 }
 
 .testimonials-section {
+  z-index: 100;
   background: #024a0d23;
   color: white;
   padding-bottom: 0.5em;
   padding-top: 0.5em;
   font-family: "Titillium Web", "sans-serif";
+}
+.testimonials-section .container {
+  z-index: 100;
 }
 .testimonials-section h1 {
   color: rgba(189, 253, 180, 0.633);
@@ -429,6 +440,15 @@ nav li a:hover {
     margin-top: 0em;
   }
 
+  section.features-section .container {
+    overflow-x: hidden;
+  }
+  section.features-section .container .effect {
+    position: relative;
+    margin-left: 0px;
+    transform: translate(40%, -650px);
+    height: 25vh;
+  }
   section.features-section .primary-cta {
     background: #1de93c53;
     color: var(--primary-color);
